@@ -3,10 +3,8 @@
 #include <stdio.h>
 
 /**
- * main - gives a number to the variable n every time you run
- * if greater than 0: positive, if 0: is zero
- * if less than 0: negative, followed by a new line
- * Return: 0
+ * main - gives a number, if greater than 0: positive, if 0: is zero if less than 0: negative, followed by a new line
+ * Return: Always (Success)
  */
 
 int main(void)
@@ -19,13 +17,13 @@ if (n > 0)
 {
 printf("%d is positive\n", n);
 }
-else if (n < 0)
+else if (n == 0)
 {
-printf("%d is negative\n", n);
+printf("%d is zero\n", n);
 }
 else
 {
-printf("%d is zero\n", n);
+printf("%d is negative\n", n);
 }
 return (0);
 }
