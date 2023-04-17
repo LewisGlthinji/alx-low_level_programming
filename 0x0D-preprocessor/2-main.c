@@ -2,7 +2,7 @@
 
 /**
  * main - prints the name of the file it was compiled from, followed by a new line.
- * Return: the name of the file
+ * Return: 0 (Sucess)
  */
 
 int main(void)
