@@ -3,9 +3,9 @@
 #include "lists.h"
 
 /**
- * add_node - adds a new node 
- * @head: double pointer 
- * @str: new string 
+ * add_node - adds a new node
+ * @head: double pointer
+ * @str: new string
  * Return: the address of the new element
  */
 
