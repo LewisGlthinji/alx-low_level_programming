@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 /*
+ * main - its a container of our put function
  * puts - used to print a string
- * main - this is the container
+ * return - if 0 then its a success
  */
 
 int main(void)
